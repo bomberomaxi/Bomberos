@@ -136,9 +136,9 @@ const PREGUNTAS = [
   },
   {
     tipo: 'vf',
-    titulo: 'CASO: Un Tribunal de 5 miembros vota por unanimidad (5 a 0) la exoneración del imputado. La sanción puede aplicarse.',
-    correctas: ['Verdadero'],
-    explicacion: 'Verdadero. La Exoneración sólo puede aplicarse con la unanimidad de la totalidad de los integrantes del Tribunal, y en este caso la hay.',
+    titulo: 'CASO: Un bombero en Disponibilidad Procesal puede ingresar al cuartel siempre que no use el uniforme.',
+    correctas: ['Falso'],
+    explicacion: 'Falso. La Disponibilidad Procesal prohíbe el ingreso al Cuartel y el uso de grado, cargos y funciones, con o sin uniforme.',
   },
   {
     tipo: 'vf',
