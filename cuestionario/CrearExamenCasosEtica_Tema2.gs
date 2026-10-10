@@ -124,15 +124,15 @@ const PREGUNTAS = [
   },
   {
     tipo: 'mc',
-    titulo: 'CASO: Un bombero fue EXONERADO por su asociación. Tiempo después quiere ingresar al cuerpo de bomberos voluntarios de otra localidad. ¿Puede?',
+    titulo: 'CASO: Se constituye un Tribunal de Acción Zonal con sus 5 miembros, 2 suplentes y un secretario que también vota en el fallo. ¿Está bien constituido?',
     opciones: [
-      'Sí, porque la exoneración sólo rige en la asociación que la aplicó',
-      'Sí, si pasaron 770 días',
-      'Sí, si lo acepta el Jefe de Cuerpo de la nueva asociación',
-      'No: el exonerado no puede ser reincorporado en ninguna asociación de bomberos voluntarios',
+      'Sí, está bien constituido',
+      'No, porque el Tribunal de Acción Zonal no lleva suplentes',
+      'No, porque el secretario debe ser el Director Federativo',
+      'No: corresponden 3 suplentes y el secretario no tiene voz ni voto',
     ],
-    correctas: ['No: el exonerado no puede ser reincorporado en ninguna asociación de bomberos voluntarios'],
-    explicacion: 'La Exoneración tiene los mismos alcances que la baja disciplinaria y el sancionado no puede ser reincorporado en ninguna asociación de bomberos voluntarios.',
+    correctas: ['No: corresponden 3 suplentes y el secretario no tiene voz ni voto'],
+    explicacion: 'En el Tribunal de Acción Zonal se designan tres miembros suplentes y un secretario del tribunal sin voz ni voto.',
   },
   {
     tipo: 'vf',
