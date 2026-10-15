@@ -140,15 +140,15 @@ const PREGUNTAS = [
   },
   {
     tipo: 'mc',
-    titulo: 'CASO: Un imputado quiere que lo defienda un directivo de su Asociación que no integra el Cuerpo Activo, tiene 1 año de antigüedad y cuenta con el aval de la Asociación. ¿Puede ser su defensor?',
+    titulo: 'CASO: Al ser notificado de la integración del Tribunal, el imputado se entera de que uno de sus integrantes es su enemigo públicamente reconocido. ¿Qué puede hacer?',
     opciones: [
-      'No: un directivo debe estar avalado por su Asociación y tener 2 años de antigüedad',
-      'Sí, porque tiene el aval de la Asociación',
-      'No, porque el defensor tiene que ser un oficial del Cuerpo Activo',
-      'Sí, porque el defensor puede ser cualquier persona, aunque no pertenezca al sistema bomberil',
+      'Recusarlo con un escrito ante el Presidente del Tribunal, dentro de los 5 días hábiles de notificado',
+      'Nada: sólo el propio integrante puede excusarse',
+      'Pedir a la Dirección General de Defensa Civil que lo aparte',
+      'Esperar el Fallo y, si lo sancionan, pedir la nulidad',
     ],
-    correctas: ['No: un directivo debe estar avalado por su Asociación y tener 2 años de antigüedad'],
-    explicacion: 'El defensor debe pertenecer al Sistema Bomberil, sin importar jerarquía. Si no integra un Cuerpo, debe ser Directivo, estar avalado por su Asociación y tener 2 años de antigüedad.',
+    correctas: ['Recusarlo con un escrito ante el Presidente del Tribunal, dentro de los 5 días hábiles de notificado'],
+    explicacion: 'Cualquiera de las partes puede recusar a un integrante del Tribunal, por escrito ante el Presidente, dentro de los 5 días hábiles de notificada. La amistad íntima o la enemistad públicamente reconocida es causa de recusación.',
   },
   {
     tipo: 'mc',
@@ -236,9 +236,9 @@ const PREGUNTAS = [
   },
   {
     tipo: 'vf',
-    titulo: 'CASO: Un bombero sancionado con suspensión agravada puede interponer un Recurso de Nulidad contra ese Fallo.',
-    correctas: ['Falso'],
-    explicacion: 'Falso. El Recurso de Nulidad sólo procede contra las sanciones de baja disciplinaria, destitución y exoneración.',
+    titulo: 'CASO: Un bombero sabe quién cometió una infracción en su cuartel y decide no informarlo. Puede ser sancionado hasta con la misma pena que el autor del hecho.',
+    correctas: ['Verdadero'],
+    explicacion: 'Verdadero. Quien, enterado de una infracción, conoce a los autores y no lo informa incurre en complicidad, y puede ser sancionado hasta con igual pena que el imputado.',
   },
   {
     tipo: 'dd',
