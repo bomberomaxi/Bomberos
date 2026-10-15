@@ -20,3 +20,13 @@ No vuelvas a ejecutarlo: cada ejecución crea un formulario nuevo.
 - Si una respuesta es incorrecta, el alumno ve la explicación al revisar su nota.
 - La nota llega por mail al correo que el alumno escribe al principio del formulario y también la puede ver con
   "Ver puntuación" al enviar. Las respuestas se ven en la pestaña **Respuestas** (se pueden pasar a una hoja de cálculo).
+
+## Examen por casos GB III-13 – Consejero de Ética 2
+
+`CrearExamenCasosEtica2.gs`: Lecciones 5 a 8 (Procedimientos, Fallo y Apelación; Institutos
+especiales y Defensa; Rebeldía, Expedientes, Disponibilidad Procesal y Feria; Recursos y Formas
+documentales). 20 casos × 5 puntos = 100, con las mismas medidas contra la copia que el Tema 2.
+
+Pegarlo en un proyecto de Apps Script **nuevo** y usar `crearExamen()`, `cerrarExamen()` y
+`enviarNotas()`. Después de crearlo, en Configuración > Cuestionarios > "Publicar calificación"
+elegir "Más tarde, tras la revisión manual" y desmarcar "Preguntas falladas" y "Respuestas correctas".
